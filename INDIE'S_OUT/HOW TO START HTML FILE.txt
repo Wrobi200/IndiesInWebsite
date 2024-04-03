@@ -1,0 +1,11 @@
+HOW TO START HTML FILE:
+
+
+<!doctype html>
+
+<html class="no-js" lang="en">
+
+!!!!(what ever code you need to build this website goes inbetween here)!!!!
+
+</html>
+

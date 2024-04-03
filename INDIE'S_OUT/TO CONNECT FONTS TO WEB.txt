@@ -1,0 +1,31 @@
+TO CONNECT FONTS TO WEB:
+
+<link rel="stylesheet" href="https://use.typekit.net/zvl2gim.css">
+
+CSS CODE FOR FONTS:
+
+INTERSTATE// BOLD
+
+font-family: interstate, sans-serif;
+font-weight: 700;
+font-style: normal;
+
+
+INTERSTATE// EXTRA LIGHT 
+
+font-family: interstate, sans-serif;
+font-weight: 300;
+font-style: normal;
+
+
+
+COLOR PALETTE HEX CODE:
+
+LIGHT GREEN// #9DEBCE
+GREY// #444444
+BLACK// #000000
+WHITE// #FFFFFF
+
+CORNER RADIUS (FOR EVERY IMAGE): 13
+CORNER RADIUS (FOR EVERY BUTTON): 43
+
