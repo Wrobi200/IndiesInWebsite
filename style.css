@@ -1,3 +1,7 @@
+html {
+    height: 100%;
+}
+
 body {
     background-color: #000000;
     color:white;
@@ -7,6 +11,8 @@ body {
     background-position: center, right;
     background-position-y: top, 750px;
     background-position-x: center, 97%;
+    height: 100%;
+    margin:0px;
 }
 .header{
     display: flex;
@@ -48,8 +54,8 @@ body {
 }
 
 .Slogon{
-    height: 400px;
-    font-size: 80px;
+    height: 20vw;
+    font-size: 4vw;
     text-align: right;
 }
 .Slogon p{
@@ -63,7 +69,9 @@ body {
 }
 
 .ActivityImg{
-    margin-left: 3%;
+    width: 25%;
+    height: fit-content;
+    margin-left: 5%;
 }
 
 .ActivityText{
@@ -72,7 +80,151 @@ body {
     margin-right: 4%;
 }
 
-.ActivityDownArrowIMG{
-    margin-left: 90%;
+.ActivityText h1{
+    font-size: 3vw;
+    line-height: .2;
+}
 
+.ActivityText p{
+    font-size: 1.4vw;
+    line-height: .2;
+}
+
+.ActivityDownArrowIMG{
+    margin-left: 80%;
+    width: 1.7%;
+    height: auto;
+    margin-bottom: 5vh;
+}
+
+.FTitle{
+    font-size: 4.5vh;
+    margin-top: 10%;
+    margin-bottom: 4%;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.Features{
+    line-height: .1vw;
+}
+
+.FPictures img{
+    margin-left: 11%;
+    width: 17%;
+    height: auto;
+}
+
+.FFirstNames{
+    color:#9DEBCE;
+    display: flex;
+    margin-bottom: 0;
+}
+
+.FFirstNames h1{
+    font-size: 2.7vw;
+    margin-left: 11%;
+    width: 17%;
+    line-height: .001vw;
+}
+
+.FLastNames{
+    color:#9DEBCE;
+    display: flex;
+}
+
+.FLastNames h1{
+    font-size: 2.7vw;
+    margin-left: 11%;
+    width: 17%;
+    line-height: .001vw;
+    margin-top: 1vw;
+}
+
+.Fgenre{
+    color:#444444;
+    display: flex;
+}
+
+.Fgenre h1{
+    font-size: 1.5vw;
+    margin-left: 11%;
+    width: 17%;
+    line-height: .01vh;
+    margin-top: .5vw;
+}
+
+.FDiscription{
+    display: flex;
+    width: 100%;
+}
+
+.FDiscription p{
+    margin-left: 11%;
+    width: 17%;
+    height: auto;
+    line-height: 1vw;
+    font-size: 1vw;
+
+}
+
+.FSeeMoreButtons{
+    display: flex;
+    color:#444444;
+}
+
+.FSeeMoreButtons h1{
+    margin-left: 11%;
+    width: 17%;
+    height: auto;
+    line-height: 1vw;
+    font-size: 1vw;
+
+}
+
+.Footer{
+    display:flex;
+    width: 100%;
+    background-color:#444444;
+    color:#444444;
+    margin-top: 7vh;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    height: 30vh;
+}
+
+.SmallLogo{
+    margin-top: 2vh;
+    margin-left: 1vw;
+    height: 20vh;
+    width: auto;
+}
+
+.FooterButtonsLeft{
+    color:white;
+    margin-top: 3vh;
+    margin-left: 68vw;
+}
+
+.FooterButtonsLeft h2{
+    font-size: 1vw;
+    text-align: right;
+}
+
+.FooterButtonsRight{
+    color:white;
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+
+.FooterButtonsRight h2{
+    font-size: 1vw;
+    text-align: right;
+}
+
+.FooterButtonsRight h1{
+    font-size: 1vh;
+    text-align: right;
+    margin-top: 12vh;
 }
