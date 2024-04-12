@@ -83,12 +83,13 @@ body {
 }
 
 .TopLogo{
-    width:15%;
+    width: 15%;
     height: auto;
     text-align: right;
 }
 
 .Slogon{
+    margin-top: 28vh;
     height: 20vw;
     font-size: 4vw;
     text-align: right;
@@ -105,18 +106,18 @@ body {
 
 .ActivityImg{
     width: 25%;
-    height: fit-content;
+    height: auto;
     margin-left: 5%;
 }
 
 .ActivityText{
     text-align: right;
     margin-left: auto;
-    margin-right: 4%;
+    margin-right: 6%;
 }
 
 .ActivityText h1{
-    font-size: 3vw;
+    font-size: 3.5vw;
     line-height: .2;
 }
 
@@ -125,96 +126,31 @@ body {
     line-height: .2;
 }
 
+.ActivityInput{
+    background-color: black;
+    color: #444444;
+    text-align: right;
+    border: 0;
+    border-color: #444444;
+    border-bottom: solid 3px;
+    width: 30vw;
+    margin-bottom: 10vh;
+    font-size: 1.5vw;
+}
+
 .ActivityDownArrowIMG{
     margin-left: 80%;
-    width: 1.7%;
+    width: 1.7vw;
     height: auto;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
 }
 
-.FTitle{
-    font-size: 4.5vh;
-    margin-top: 10%;
-    margin-bottom: 4%;
-    margin-left: 3%;
-    text-align: left;
-}
-
-.Features{
-    line-height: .1vw;
-}
-
-.FPictures img{
-    margin-left: 11%;
-    width: 17%;
-    height: auto;
-}
-
-.FFirstNames{
-    color:#9DEBCE;
-    display: flex;
-    margin-bottom: 0;
-}
-
-.FFirstNames h1{
-    font-size: 2.7vw;
-    margin-left: 11%;
-    width: 17%;
-    line-height: .001vw;
-}
-
-.FLastNames{
-    color:#9DEBCE;
-    display: flex;
-}
-
-.FLastNames h1{
-    font-size: 2.7vw;
-    margin-left: 11%;
-    width: 17%;
-    line-height: .001vw;
-    margin-top: 1vw;
-}
-
-.Fgenre{
-    color:#444444;
-    display: flex;
-}
-
-.Fgenre h1{
-    font-size: 1.5vw;
-    margin-left: 11%;
-    width: 17%;
-    line-height: .01vh;
-    margin-top: .5vw;
-}
-
-.FDiscription{
-    display: flex;
-    width: 100%;
-}
-
-.FDiscription p{
-    margin-left: 11%;
-    width: 17%;
-    height: auto;
-    line-height: 1vw;
-    font-size: 1vw;
-
-}
-
-.FSeeMoreButtons{
-    display: flex;
-    color:#444444;
-}
-
-.FSeeMoreButtons h1{
-    margin-left: 11%;
-    width: 17%;
-    height: auto;
-    line-height: 1vw;
-    font-size: 1vw;
-
+.SendButton{
+    font-size: 1vh;
+    margin-top: 7vh;
+    margin-bottom: 11vh;
+    margin-right: 7vw;
+    text-align: right;
 }
 
 .Footer{
