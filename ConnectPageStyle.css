@@ -153,6 +153,11 @@ body {
     text-align: right;
 }
 
+.SendInput{
+    width: 5vw;
+    height: 2vh;
+}
+
 .Footer{
     display:flex;
     width: 100%;

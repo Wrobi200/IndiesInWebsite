@@ -208,17 +208,17 @@ body {
 .FSeeMoreButtons{
     display: flex;
     color:#444444;
-
 }
 
-.FSeeMoreButtons h1{
-    margin-left: 11%;
+.FSeeMoreButton{
+    margin-left: 50%;
     width: 17%;
     height: auto;
     line-height: 1vw;
     font-size: 1vw;
-
+    
 }
+
 
 .Footer{
     display:flex;

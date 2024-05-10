@@ -31,48 +31,50 @@
     </div>
 
     <div class="Slogon">
-        <p></p>
-        <p>CONNNEC<span style="color:#9DEBCE">T</span></p>
+        <p>CONNEC<span style="color:#9DEBCE">T</span></p>
     </div>
 
-    <div class="MainPages">
-        <article class="ActivityLine">
-            <section class="ActivityText">
-                <h1>Name</h1>
-                <input class="ActivityInput" type="text" value="John Doe">
-            </section>
-        </article>
-        
-        <img class="ActivityDownArrowIMG" src="PNG'S/GreenDownArrow.png">
 
-        <article class="ActivityLine">
-            <section class="ActivityText">
-                <h1>EMAIL</h1>
-                <input class="ActivityInput" type="text" value="EXAMPLE@EMAIL.COM">
-            </section>
-        </article>
-        
-        <img class="ActivityDownArrowIMG" src="PNG'S/GreenDownArrow.png">
+    <form action="connectPage.php" method="post">
+        <div class="MainPages">
+            <article class="ActivityLine">
+                <section class="ActivityText">
+                    <h1>Name</h1>
+                    <input class="ActivityInput" type="text" value="John Doe" name="name" />
+                </section>
+            </article>
+            
+            <img class="ActivityDownArrowIMG" src="PNG'S/GreenDownArrow.png">
 
-        <article class="ActivityLine">
-            <section class="ActivityText">
-                <h1>BREIF SELF- INTRODUCTION</h1>
-                <input class="ActivityInput" type="text" value="ABOUT YOU">
-            </section>
-        </article>
-    </div>
+            <article class="ActivityLine">
+                <section class="ActivityText">
+                    <h1>EMAIL</h1>
+                    <input class="ActivityInput" type="text" value="EXAMPLE@EMAIL.COM" name="email" />
+                </section>
+            </article>
+            
+            <img class="ActivityDownArrowIMG" src="PNG'S/GreenDownArrow.png">
 
-    <div class="SendButton">
-        <h1>SendButtonPlaceHolder</h1>
-    </div>
+            <article class="ActivityLine">
+                <section class="ActivityText">
+                    <h1>BREIF SELF- INTRODUCTION</h1>
+                    <input class="ActivityInput" type="text" value="ABOUT YOU" name="description" />
+                </section>
+            </article>
+        </div>
+
+        <div class="SendButton">
+            <input class="SendInput" type="submit" value="Submit"> 
+        </div>
+    </form>
 
     <div class="Footer">
         <img class="SmallLogo" src="Logo's/SecondaryLogo.png">
         <article class="FooterButtonsLeft">
-            <h2>HOME</h2>
+            <h2><a class="MainHyperlinks" href="HomePage.html">HOME</a></h2>
             <h2>ABOUT ME</h2>
             <h2>FEATURES</h2>
-            <h2><span style="color:#9DEBCE">CONNECT</span></h2>
+            <h2><a class="CurrentPageHyperLink" href="ConnectPage.html"><span style="color:#9DEBCE">CONNECT</span></a></h2>
             <h2>EVENTS</h2>
         </article>
         <article class="FooterButtonsRight">
